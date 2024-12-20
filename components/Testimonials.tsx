@@ -36,7 +36,7 @@ export default function Testimonials() {
             transition={{ duration: 0.3, delay: index * 0.1 }}
           >
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-              "{testimonial.content}"
+            &quot;{testimonial.content}&quot;
             </p>
             <div className="font-semibold text-lg text-gray-800 dark:text-white">{testimonial.name}</div>
             <div className="text-sm text-gray-500 dark:text-gray-400">{testimonial.role}</div>

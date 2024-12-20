@@ -11,7 +11,7 @@ export default function About() {
         {/* Text Section */}
         <div className="w-full lg:w-[50%] space-y-6">
           <p className="text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
-            Hello! I'm Nithin Konakalla, a passionate web developer with a keen eye for creating beautiful and functional websites. 
+            Hello! I am Nithin Konakalla, a passionate web developer with a keen eye for creating beautiful and functional websites. 
             I love turning complex problems into simple, elegant solutions.
           </p>
           <p className="text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
@@ -19,7 +19,7 @@ export default function About() {
             I strive to deliver high-quality, scalable, and user-friendly applications.
           </p>
           <p className="text-lg text-gray-800 dark:text-gray-200 leading-relaxed">
-            When I'm not coding, you can find me exploring new technologies, 
+            When I am not coding, you can find me exploring new technologies, 
             or enjoying a good book on software architecture.
           </p>
         </div>
