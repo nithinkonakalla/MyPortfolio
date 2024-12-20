@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 const projects = [
   {
-    title: "AI SaaS Image Generator App",
+    title: "AI SaaS Text-to-Image Generator App",
     description: "A Text-to-Image Generator App powered by AI, allowing users to create images from text prompts. The app features an integrated credit system, where users can generate images based on their available credits. Users can purchase additional credits through an online payment gateway Razorpay. The platform also includes secure user authentication with JWT (JSON Web Token) for safe login and user management.",
     image: "/placeholder.svg?height=200&width=300",
     github: "https://github.com/yourusername/project1",
