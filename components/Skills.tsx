@@ -17,6 +17,8 @@ const skills = [
   { name: "MongoDB", level: 80 },
   { name: "RESTful API", level: 70 },
   { name: "Responsive Design", level: 80 },
+  { name: "Framer Animation", level: 70 },
+
 
 
 
