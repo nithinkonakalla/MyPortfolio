@@ -26,12 +26,12 @@ export default function ThemeToggle() {
   {isDark ? (
     <>
       <Sun size={24} />
-      <span className="ml-1 text-sm font-large">Light Mode</span> {/* Text for Dark mode */}
+      <span className="ml-1 text-sm font-large">Light Mode</span> 
     </>
   ) : (
     <>
       <Moon size={24} />
-      <span className="ml-1 text-sm font-large">Dark Mode</span> {/* Text for Light mode */}
+      <span className="ml-1 text-sm font-large">Dark Mode</span> 
     </>
   )}
 </motion.button>
