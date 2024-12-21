@@ -22,14 +22,14 @@ const projects = [
     demo: "https://my-portfolio-three-sooty-27.vercel.app/",
     tech: ["Next.js", "Tailwind CSS"]
   },
-  {
-    title: "Weather Dashboard",
-    description: "A real-time weather app using React and a third-party API.",
-    image: "/placeholder.svg?height=200&width=300",
-    github: "https://github.com/yourusername/project3",
-    demo: "https://project3-demo.com",
-    tech: ["React", "Weather API", "Chart.js", "Styled Components"]
-  }
+  // {
+  //   title: "Weather Dashboard",
+  //   description: "A real-time weather app using React and a third-party API.",
+  //   image: "/placeholder.svg?height=200&width=300",
+  //   github: "https://github.com/yourusername/project3",
+  //   demo: "https://project3-demo.com",
+  //   tech: ["React", "Weather API", "Chart.js", "Styled Components"]
+  // }
 ]
 export default function Projects() {
   return (

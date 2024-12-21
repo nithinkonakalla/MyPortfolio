@@ -13,7 +13,7 @@ const skills = [
   { name: "TypeScript", level: 70 },
   { name: "HTML5/CSS3", level: 95 },
   { name: "Tailwind CSS", level: 85 },
-  { name: "Redux", level: 80 },
+  { name: "Redux", level: 60 },
   { name: "MongoDB", level: 80 },
   { name: "RESTful API", level: 70 },
   { name: "Responsive Design", level: 80 },
