@@ -12,7 +12,7 @@ const projects = [
     image: "/images/aiImageGenerator.jpg",
     github: "https://github.com/nithinkonakalla/AI-SaaS-Text-to-Image-Generator-App",
     demo: "https://ai-saa-s-text-to-image-generator-app-afel.vercel.app/",
-    tech: ["React", "Node.js", "MongoDB", "Express","Razorpay","JWT Auth","ClipDrop Api"]
+    tech: ["Becrypt","React", "Node.js", "MongoDB", "Express","Razorpay","JWT Auth","ClipDrop Api"]
   },
   {
     title: "Personal Portfolio",
