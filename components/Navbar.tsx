@@ -72,7 +72,7 @@ export default function Navbar() {
                 variant="outline"
                 size="sm"
                 className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white border-none hover:from-blue-600 hover:to-purple-600"
-                onClick={() => window.open('/images/cv.pdf', '_blank')}
+                onClick={() => window.open('/cv.pdf', '_blank')}
               >
                 <FileDown size={16} />
                 Download CV

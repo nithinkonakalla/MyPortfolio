@@ -16,11 +16,11 @@ const projects = [
   },
   {
     title: "Personal Portfolio",
-    description: "This is a minimalistic personal portfolio website built with Next.js and styled using Tailwind CSS. The website is fully responsive. The site uses Next.js for server-side rendering, ensuring fast load times and excellent SEO performance. Tailwind CSS provides a flexible and efficient way to style the portfolio, allowing for a clean and modern design that works across different screen sizes.",
+    description: "This is a minimalistic personal portfolio website built with Next.js,Typescript and styled using Tailwind CSS. The website is fully responsive. The site uses Next.js for server-side rendering, ensuring fast load times and excellent SEO performance. Tailwind CSS provides a flexible and efficient way to style the portfolio, allowing for a clean and modern design that works across different screen sizes.",
     image: "/images/myportfolio.jpg",
     github: "https://github.com/nithinkonakalla/MyPortfolio.git",
     demo: "https://my-portfolio-three-sooty-27.vercel.app/",
-    tech: ["Next.js", "Tailwind CSS"]
+    tech: ["Next.js","Typescript", "Tailwind CSS"]
   },
   // {
   //   title: "Weather Dashboard",
