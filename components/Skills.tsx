@@ -5,13 +5,13 @@ import SkillBar from './SkillBar'
 
 const skills = [
   { name: "RAP", level: 80 },
-  { name: "JavaScript", level: 90 },
+  { name: "JavaScript", level: 70 },
   { name: "React", level: 85 },
   { name: "Next.js", level: 80 },
   { name: "Node.js", level: 75 },
   { name: "Express.js", level: 75 },
 
-  { name: "TypeScript", level: 70 },
+
   { name: "HTML5/CSS3", level: 95 },
   { name: "Tailwind CSS", level: 85 },
   
