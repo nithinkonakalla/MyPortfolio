@@ -51,7 +51,7 @@ export default function Hero() {
             <Github size={24} />
             <span className="text-sm">GitHub</span>
           </a>
-          <a 
+          {/* <a 
             href="https://www.linkedin.com/in/nithin-konakalla-bb01513b3/" 
             target="_blank" 
             rel="noopener noreferrer" 
@@ -59,7 +59,7 @@ export default function Hero() {
           >
             <Linkedin size={24} />
             <span className="text-sm">LinkedIn</span>
-          </a>
+          </a> */}
         </div>
       </motion.div>
       <motion.div
