@@ -2,7 +2,7 @@
 
 
 import { motion } from 'framer-motion'
-import { ArrowDownCircle, Mail, Phone, Github, Linkedin } from 'lucide-react'
+import { ArrowDownCircle, Mail, Phone, Github } from 'lucide-react'
 // import { Button } from '@/components/ui/button'
 
 export default function Hero() {
@@ -51,15 +51,6 @@ export default function Hero() {
             <Github size={24} />
             <span className="text-sm">GitHub</span>
           </a>
-          {/* <a 
-            href="https://www.linkedin.com/in/nithin-konakalla-bb01513b3/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2"
-          >
-            <Linkedin size={24} />
-            <span className="text-sm">LinkedIn</span>
-          </a> */}
         </div>
       </motion.div>
       <motion.div
