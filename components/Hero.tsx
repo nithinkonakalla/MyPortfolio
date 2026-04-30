@@ -24,14 +24,14 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300">Web Developer | Tech Enthusiast | Problem Solver</p>
-        <p className="text-lg text-gray-600 dark:text-gray-400">Currently working at <span className="text-blue-600 dark:text-blue-400 font-semibold">Matrical Technologies,Bengaluru</span></p>
+        {/* <p className="text-lg text-gray-600 dark:text-gray-400">Currently working at <span className="text-blue-600 dark:text-blue-400 font-semibold">Matrical Technologies,Bengaluru</span></p> */}
         <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center items-center">
           <a 
             href="mailto:your.email@example.com" 
             className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2"
           >
             <Mail size={20} />
-             Nithinkonakalla2357@gmail.com
+             nithinkonakalla2357@gmail.com
           </a>
           <a 
             href="tel:+1234567890" 
@@ -52,7 +52,7 @@ export default function Hero() {
             <span className="text-sm">GitHub</span>
           </a>
           <a 
-            href="https://www.linkedin.com/in/nithin-konakalla/" 
+            href="https://www.linkedin.com/in/nithin-konakalla-bb01513b3/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center gap-2"

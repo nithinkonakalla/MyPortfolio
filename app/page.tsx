@@ -2,11 +2,12 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
+import Certifications from '@/components/Certifications'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 import FloatingActionButton from '@/components/FloatingActionButton'
 import ThemeToggle from '@/components/ThemeToggle'
-import Testimonials from '@/components/Testimonials'
+// import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
@@ -19,8 +20,9 @@ export default function Home() {
           <div >
             <About />
             <Skills />
+            <Certifications />
             <Projects />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Contact />
           </div>
         </div>
