@@ -69,7 +69,7 @@
 
 'use client';
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -77,6 +77,18 @@ import { submitContactForm } from './actions/contact'
 
 export default function Contact() {
   const [formStatus, setFormStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+  const formRef = useRef<HTMLFormElement>(null)
+
+  // Reset form status back to idle after successful submission
+  useEffect(() => {
+    if (formStatus === 'sent') {
+      const timer = setTimeout(() => {
+        setFormStatus('idle')
+      }, 3000) // Reset after 3 seconds
+
+      return () => clearTimeout(timer)
+    }
+  }, [formStatus])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -87,6 +99,7 @@ export default function Contact() {
 
     if (result.success) {
       setFormStatus('sent')
+      formRef.current?.reset() // Clear the form fields
     } else {
       setFormStatus('error')
     }
@@ -96,7 +109,7 @@ export default function Contact() {
     <section id="contact" className="py-20 px-4 bg-gradient-to-b from-purple-50 to-rose-50 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">Contact Me</h2>
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-4">
             <div>
               <Input 
@@ -133,7 +146,7 @@ export default function Contact() {
             >
               {formStatus === 'idle' && 'Send Message'}
               {formStatus === 'sending' && 'Sending...'}
-              {formStatus === 'sent' && 'Message Sent!'}
+              {formStatus === 'sent' && 'Message Sent! ✓'}
               {formStatus === 'error' && 'Error. Try Again.'}
             </Button>
           </div>
